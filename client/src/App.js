@@ -9,6 +9,7 @@ import RecordList from "./components/recordList";
 import Edit from "./components/edit";
 import Create from "./components/create";
  
+//npm run start
 const App = () => {
  return (
    <div>
