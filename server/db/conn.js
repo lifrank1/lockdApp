@@ -4,7 +4,7 @@ const client = new MongoClient(Db);
  
 var _db;
  
-//node server.js client repo
+//node server.js client in server directory
 module.exports = {
   connectToServer: function (callback) {
     client.connect(function (err, db) {

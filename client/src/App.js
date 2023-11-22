@@ -5,7 +5,7 @@ import RecordList from "./components/recordList";
 import Edit from "./components/edit";
 import Create from "./components/create";
  
-//npm run start in client
+//npm run start in client directory
 const App = () => {
  return (
    <div>
