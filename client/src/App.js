@@ -6,6 +6,7 @@ import Edit from "./components/edit";
 import Create from "./components/create";
  
 //npm run start in client directory
+// npm --prefix /Users/frankli/Projects/lockdApp/client run start if not found
 const App = () => {
  return (
    <div>
