@@ -41,7 +41,7 @@ export default function Create() {
   // This following section will display the form that takes the input from the user.
   return (
     <div>
-      <h3>Create New Record</h3>
+      <h3>Enter Order</h3>
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
@@ -63,7 +63,7 @@ export default function Create() {
             onChange={(e) => updateForm({ position: e.target.value })}
           />
         </div>
-        <div className="form-group">
+        {/* <div className="form-group">
           <div className="form-check form-check-inline">
             <input
               className="form-check-input"
@@ -106,13 +106,9 @@ export default function Create() {
               Senior
             </label>
           </div>
-        </div>
+        </div> */}
         <div className="form-group">
-          <input
-            type="submit"
-            value="Create person"
-            className="btn btn-primary"
-          />
+          <input type="submit" value="Submit" className="btn btn-primary" />
         </div>
       </form>
     </div>
