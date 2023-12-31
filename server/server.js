@@ -5,7 +5,8 @@ const cors = require("cors");
 require("dotenv").config({ path: "./config.env" });
 const port = process.env.PORT || 5000;
 
-//node server.js client in server directory
+ //node server.js client in server directory
+ //lsof -i -P -n | grep LISTEN to find a new port
 app.use(cors());
 app.use(express.json());
 app.use(require("./routes/record"));
