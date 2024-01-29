@@ -7,6 +7,7 @@
 
 /server/config.env
 /config.env
+../server/config.env
 
 # testing
 /coverage
