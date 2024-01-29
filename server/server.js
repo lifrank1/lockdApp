@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 
 require("dotenv").config({ path: "./config.env" });
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
 //node server.js client in server directory
 //lsof -i -P -n | grep LISTEN to find a new port
