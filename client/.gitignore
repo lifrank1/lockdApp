@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 
+/server/config.env
 /config.env
 
 # testing
